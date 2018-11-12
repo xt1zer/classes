@@ -1,1 +1,1 @@
-# dynamic_stack_currency
+# c++ classes projects stored here
