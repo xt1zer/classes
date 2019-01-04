@@ -1,4 +1,4 @@
-#include "vector.h"
+#include "Vector.h"
 #include <iostream>
 using std::cout;
 
