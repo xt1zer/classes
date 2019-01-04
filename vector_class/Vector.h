@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../complex_class/complex.h"
-#include "../linked_list.h"
+#include "../complex_class/Complex.h"
+#include "../List.h"
 
 class Vector {
 
