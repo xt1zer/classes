@@ -1,4 +1,4 @@
-#include "vector.h"
+#include "Vector.h"
 
 Vector::Vector() : m_dim(0) {}
 
