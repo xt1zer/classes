@@ -87,7 +87,7 @@ Complex &Complex::operator-=(const double &num) {
 
 Complex Complex::operator*(const Complex &c) const {
     return Complex(m_re * c.m_re - m_im * c.m_im, m_re * c.m_im + m_im * c.m_re);
-} //-3
+}
 
 Complex Complex::operator*(const double &num) const {
     return Complex(m_re * num, m_im * num);
