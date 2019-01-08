@@ -12,6 +12,10 @@ void Map::insert(const size_t &key, const string &val) {
     m_table[hash(key)].push_back(Pair(key, val));
 }
 
+const string Map::get(const size_t& key) const {
+    return find(key)->m_val;
+}
+
 Pair* Map::find(const size_t &key) const {
     if(is_empty())
         return nullptr;
