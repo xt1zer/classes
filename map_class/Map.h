@@ -50,6 +50,8 @@ public:
 
 
     void insert(const size_t &, const string &);
+    
+    const string get(const size_t &) const;
 
     Pair* find(const size_t &) const;
 
